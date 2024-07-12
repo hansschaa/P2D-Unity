@@ -3,16 +3,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     //Variables de movimiento
-    public int velocity;
-    public int jumpForce;
+    [SerializeField] protected int velocity;
+    [SerializeField] protected int jumpForce;
 
     //Hacia donde esta mirando el personaje, 1 para derecha, -1 para izquierda. Útil para que al caminar este se gire
-    public int lookAhead = 0;
+    [SerializeField] protected int lookAhead = 0;
 
     //Componente Animator: Este controla las animaciones dle personaje, cada objeto que tenga animaciones tendrá uno
-    public Animator animator;
+    [SerializeField] protected Animator animator;
     //Componente Rigidbody2D: Componente que permite que nuestro gameobject tenga físicas
-    public Rigidbody2D rb;
+    [SerializeField] protected Rigidbody2D rb;
+
     private void Awake()
     {
         Application.targetFrameRate = 60;

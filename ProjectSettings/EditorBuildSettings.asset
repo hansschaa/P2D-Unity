@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TitleScreen.unity
     guid: 79b50d41387b93745bc2d4207bf03f88
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/Pong sin f\xEDsicas.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Platform.unity
+    guid: ab069d24687eb994ead4c6125f674cbc
   m_configObjects: {}
